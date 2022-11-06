@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { DataGrid } from '@mui/x-data-grid';
-import Box from '@mui/material/Box';
-import { userRows } from "../assets/defaultData";
 import { Link } from 'react-router-dom';
 import { MdDelete } from 'react-icons/md'
 import { FiEdit2 } from 'react-icons/fi'
