@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         {/* Menu/otherpages */}
         {menuOpen &&
-        (<div className='w-full md:hidden absolute flex-col bg-gradient-to-b from-black to-gray-900 rounded-b-lg transition-all ease-in-out duration-1000 mt-[32vh] pt-5'>
+        (<div className='w-full md:hidden absolute flex-col bg-gradient-to-b from-black to-gray-900 rounded-b-lg transition-all ease-in-out duration-1000 mt-[30vh] pt-5'>
           <ul className='text-xl mb-5'>
             <Link to={'/products/newReleases'} onClick={() => setMenuOpen(!menuOpen)}><li className='hover:bg-gray-700 duration-700 rounded-lg px-3 py-1 mb-5'>New Releases</li></Link>
             <Link to={'/products/men'}><li className='hover:bg-gray-700 duration-700 rounded-lg px-3 py-1 mb-5'>Men</li></Link>

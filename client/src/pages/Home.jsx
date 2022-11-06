@@ -16,7 +16,7 @@ const Home = () => {
   }, [])
   
   return (
-    <div className='w-full max-w-screen flex'>
+    <div className='w-full max-w-screen flex overflow-hidden'>
       <div className=''>
         {/* empty banner except for sign in etc. on right */}
         <Announcement />

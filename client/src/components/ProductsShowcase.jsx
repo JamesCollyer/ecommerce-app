@@ -13,7 +13,7 @@ const ProductsShowcase = (
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get( category === {} ? `http://localhost:9000/api/products?category=${category.category}` : `http://localhost:000/api/products`);
+        const res = await axios.get( category === {} ? `http://localhost:9000/api/products?category=${category.category}` : `http://localhost:9000/api/products`);
         setProducts(res.data)
 
       } catch (err) {}
